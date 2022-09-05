@@ -34,7 +34,6 @@ defmodule Client do
     c1_port = IO.gets("When ready, enter your friend's port: ")
     keepalive_daemon(c0_port, c1_port, IP)
     IO.puts("success!")
-    end
   end
 
 end
